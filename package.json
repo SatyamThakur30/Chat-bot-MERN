@@ -1,0 +1,21 @@
+{
+  "name": "tresor_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/index.js",
+    "client": "npm start --prefix froentend",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "dialogflow": "^1.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "uuid": "^8.3.2"
+  }
+}

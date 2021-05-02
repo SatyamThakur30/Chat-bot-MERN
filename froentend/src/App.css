@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  clear: both;
+  
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.chatboat-container{
+  background-color: rgba(12, 11, 11, 0.8);
+  height: 500px;
+  width: 400px;
+  border-radius: 15px;
+}
+.name-section{
+  padding: 15px;
+  border-radius: 15px 15px 0 0;
+  background-color: rgb(153, 38, 138);
+}
+.chats-container{
+ overflow-y: scroll;
+  height: 373px;
+  padding: 20px;
+ 
+}
+.individual-chat{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 90%;
+  text-align: justify;
+}
+
+.input-container{
+ 
+  width: 400px;
+  margin-bottom: 15px;
+
+}
+input{
+  padding: 10px;
+  width: 80%;
+}
+button{
+  padding: 10px;
+  background-color: rgb(25, 167, 20);
+  color: white;
+}
+.login-btn{
+  background-color: teal !important;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
