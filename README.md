@@ -1,6 +1,6 @@
 # Chat-bot-MERN
 
-Funtionality of app is ok but Ui may need attention on small screed.
+Funtionality of app is ok but Ui may need attention on small screen.
 
 Features of app
 1. can reply back on human touch.
